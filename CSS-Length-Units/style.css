@@ -1,6 +1,7 @@
 html {
     /* 1. set the root font size to 1.25 times its original size.
         use a relative font measurement to accomplish this. */
+    font-size: 1.25em;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* 2. set the line height to 1.5 times (or 150%) of the height of 
           the body text. use a relative measurement to accomplish this. */
+    line-height: 1.5;
 }
 
 main {
@@ -27,24 +29,35 @@ main {
             - 6% on the left and right
             - 9% on the bottom
           - apply a 3px powderblue border to the left and right sides */
+    width: 80%;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 3% 6% 9%;
+    border-left: 3px solid powderblue;
+    border-right: 3px solid powderblue;
 }
 
 section {
     /* 4. apply margin to the bottom of the section element.
           the margin should be 3 times the size of the root font size. */
+    margin-bottom: 3rem;
 }
 
 h1, h2, h3 {
     /* 5. set the line height to 1.1 times (or 110%) of the height of 
           the body text. use a relative measurement to accomplish this. */
+    line-height: 1.1;
 }
 
 h1 {
     /* 6. set the h1 font size to 2.5 times the root font size. */
+    font-size: 2.5rem;
 }
 
 h2 {
     /* 7. set the h2 font size to twice the root font size. */
+    font-size: 2rem;
 }
 
 h3 {
@@ -52,6 +65,8 @@ h3 {
   
           -  set the font size to 1.5 times the root font size.
           -  set the top margin to twice the root font size. */
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 code {
@@ -68,6 +83,10 @@ blockquote {
           - set the font size of the blockquote to 1.1 times the size
             of the parent element’s text. In other words, don’t refer
             to the root font size. */
+    padding: 5%;
+    margin: 2rem 1rem;
+    font-size: 1.1em;
+    
 }
 
 cite {
@@ -80,4 +99,6 @@ cite {
              of the parent element’s text. 
               
              In both cases, don’t refer to the root font size */
+    margin-top: 1em;
+    font-size: 0.75em;
 }
