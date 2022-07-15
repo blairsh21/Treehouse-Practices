@@ -1,0 +1,99 @@
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+body {
+  margin: 0;
+  color: #292e31;
+  font: 400 100%/1.5 Arial, Helvetica, sans-serif;
+}
+a {
+  color: #c14b0b;
+  text-decoration: none;
+}
+h1 {font-size: 2.5rem;}
+h1, h2 {line-height: 1.1;}
+img {
+  width: 100%; /* responsive images */
+}
+
+/* Main Styles --------------------- */
+nav {
+  padding: .5rem 0;
+  border-bottom: 10px solid #F2D054;
+  background-color: #292E31;
+  color: #fff;
+  text-align: center;
+}
+#logo {
+  margin: .5rem 0;
+  color: #F2D054;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  margin-bottom: .5rem;
+}
+nav a {
+  color: #fff;
+}
+nav a#current {
+  color: #F47E3E;
+}
+main {
+  padding: 1rem 1rem 3rem;
+  hyphens: auto;
+}
+figure {
+  margin: 0;
+  border: 1px solid #595E61; 
+}
+figcaption {
+  margin-bottom: 7px;
+  font-size: .8rem;
+  text-align: center;
+}
+blockquote {
+  border-left: 1px dashed #292E31;
+  padding-left: 1rem;
+}
+blockquote cite {
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+}
+footer {
+  padding: 1rem;
+  font-size: .9rem;
+  border-top: 1px solid #595E61;
+}
+
+/* 1. on a large screen, prevent the main and footer elements 
+      from growing too wide, and center them on the screen. 
+      (this can be accomplished without a media query.) */
+
+/* Media Queries ------------------- */
+
+/* 2. when the page is printed,
+
+      a. hide the nav element when the page is printed.
+      b. set the width of the figure element to 50%, 
+         and position it to the left so text wraps around it */
+   
+/* 3. on a large screen (768px or wider),
+      
+      a. set the width of the figure element to 360px, 
+         and position it to the left so text wraps around it
+      b. prevent the h2 element from wrapping next to the figure element
+      c. change the display type of the nav li elements 
+         to place them horizontally, not vertically */
+
+
